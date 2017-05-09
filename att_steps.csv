@@ -1,0 +1,39 @@
+start_id,c@ui:id=start
+//Z971
+//set up a new device
+start_tt,c@ui:tt=start
+//Z971
+//set up a new device
+continue_tt,c@ui:tt=CONTINUE
+//Z971
+//set up a new device
+click_skip@setup,c@ui:id=skipdialog-skip/class=android.widget.Button
+//Z971
+//set up a new device
+NEXT_tt,c@ui:tt=NEXT
+//Z971
+//set up a new device
+skip_tt,c@ui:tt=Skip
+//Z971
+//set up a new device
+NEXT_tt,c@uv:tt=NEXT
+//Z971
+//set up a new device
+EXIT_tt,c@uv:tt=EXIT
+//Z971
+//set up a new device
+click_use_cellular@setup,c@uv:tt=Use cellular network for setup
+//Z971
+//
+click_skip@setup,c@xy:580/640
+//Z971
+//
+click_skip@setup2,c@xy:560/950
+
+click_skip@setup3,c@xy:380/480
+//Z831
+//
+skip_cd,c@ui:cd=SKIP
+
+480 854   380/480
+720 1280  580/640

@@ -1,0 +1,8 @@
+road setup
+	start_id
+	start_tt
+	click_use_cellular@setup
+	continue_tt
+	click_skip@setup3
+	
+Endroad

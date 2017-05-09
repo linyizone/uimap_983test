@@ -1,0 +1,206 @@
+road Preset_message
+	返回至主界面
+	点击Apps键
+	点击Messaging应用
+	try continue
+	click_newMessage
+	click_numinMessage
+	enter_numInMessage
+	cancel
+	输入文本内容
+	发送消息
+	click_attachInMessage
+	try continue
+	click_picInMessage
+	发送消息
+	返回至主界面
+	_Pressapp_switch
+	click_clearall	
+EndRoad
+
+road 安装皇室战争
+	返回至主界面
+	进入商店
+	enter_googleplay
+	回车
+	click_googleplay
+	点击install
+	_Pressapp_switch
+	click_clearall
+	进入商店
+	输入APP
+	回车
+	点击install
+	返回至主界面
+	检查皇室战争安装
+	click_game
+	_sleep30
+	click_yesIngame
+	_sleep5
+	_Pressapp_switch
+	click_clearall	
+EndRoad
+
+road Preset_GoogleAccount
+	返回至主界面
+	点击Apps键
+	进入设置
+	进入账号
+	选择添加账号
+	选择添加Google账号
+	等待账号输入框
+	输入账号
+	点击next
+	等待密码输入框
+	输入账号密码
+	点击next
+	点击agree
+	返回至主界面
+EndRoad
+
+road 设置桌面
+	返回至主界面
+	点击Apps键
+	进入Drive
+	try continue
+	点击图片1
+	点击Option
+	向上滑动 
+	点击下载
+	返回
+	点击图片2
+	点击Option
+	向上滑动
+	点击下载
+	返回至主界面
+	点击Apps键
+	点击Gallery
+	点击other
+	点击图库的下载
+	点击图库的下载中第一张图
+	点击Option
+	点击set_as
+	点击Wallpaper
+	点击OK
+	返回
+	点击图库的下载中第二张图
+	点击Option
+	点击set_as
+	点击Lock screen wallpaper
+	点击OK
+	返回
+	返回至主界面
+EndRoad
+
+road Preset_Email
+	desktop
+	show_App
+	enter_Email
+	enter_GoogleInEmail
+	enter_idInEmail
+	click_next
+	enter_passwordInEmail
+	click_signinInEmail
+	wait_allowInEmail
+	click_allowInEmail
+	wait_inboxInEmail
+	desktop
+EndRoad
+
+road Preset_Alarm
+	desktop
+	click_clock
+	click_addInclock
+	click_saveInclock
+	_Pressapp_switch
+	click_clearall
+EndRoad
+
+road Preset_setting
+	desktop
+	show_App
+	click_setting
+	click_Display
+	click_Sleep
+	click_NeverInDisplay
+	cancel
+	click_Sound
+	click_RingtonesInSound
+	click_AT&TInSound
+	click_BluesInSound
+	click_done
+	click_NotificationInSound
+	click_BirdInSound
+	click_done
+	_Pressapp_switch
+	click_clearall
+EndRoad
+
+road Preset_Phone
+	desktop
+	click_Phone
+	click_contacts
+	click_addInContacts
+	click_editInContacts
+	enter_nameInContacts
+	click_numInContacts
+	enter_numInContacts
+	click_doneInContacts
+	click_callInContacts
+	click_endInPhone
+	cancel
+	desktop
+	click_Phone
+	Lclick_2num
+	click_OKInPhone
+	click_phone2InPhone
+	enter_numberInPhone
+	click_turnonInPhone
+	_Pressapp_switch
+	click_clearall
+EndRoad
+
+road Preset_calender
+	desktop
+	Lclick_home
+	swipeToright
+	click_addscreen
+	...
+	_Pressapp_switch
+	click_clearall
+EndRoad
+
+road preset_browser
+	desktop
+	click_browser
+	enter_webaddress
+	goahead
+	click_bookmark
+	click_addbookmark
+	click_okInaddbookmark
+	_Pressapp_switch
+	click_clearall
+EndRoad
+
+road preset_hotspot
+	desktop
+	show_App
+	click_setting
+	click_hotspot
+	click_editInhotspot
+	enter_ssid
+	enter_pswdInhotspot
+	click_okInhotspot
+	_Pressapp_switch
+	click_clearall
+EndRoad
+
+road Preset_keyboard
+
+EndRoad
+
+road testttt,shiyan5
+	shiyan3
+	shiyan4
+	cancel
+EndRoad

@@ -1,0 +1,14 @@
+Route Preset_all
+	Preset_setting
+	登陆谷歌账号
+	设置桌面
+	安装皇室战争
+	给自己发送测试短信
+	Preset_Email
+	Preset_Alarm
+	Preset_Phone
+	Preset_calender
+	preset_browser
+	preset_hotspot
+EndRoute
+	

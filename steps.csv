@@ -1,0 +1,115 @@
+返回至主界面,k:<back>&&<back>&&<back>&&<home>
+点击Apps键,c@ui:tt=apps||cd=apps
+点击Messaging应用,c@{uv:text=$Messaging$}{scrollindex:2}
+click_newMessage,c@ui:id=floating_action_button
+click_numinMessage,c@ui:id=recipients_editor
+click_attachInMessage,c@ui:cd=$attach$
+click_picInMessage,c@ui:tt=$Pictures$
+enter_numInMessage,adbshell:input text 4045365004
+click_picTosend,c@ui:tt=$Test1.jpg$
+输入文本内容,in@ui:id=embedded_text_editor=Test successful
+发送消息,c@ui:cd=Send
+返回至主界面,k:<back>&&<back>&&<back>&&<home>
+进入商店,c@ui:text=$Play Store$
+输入APP,in@ui:id=search_box_idle_text=Clash Royale
+enter_googleplay,in@ui:id=search_box_idle_text=google play games
+click_googleplay,c@ui:tt=$Google Play Games$
+点击install,c@ui:text=$INSTALL$
+输入文本,in@ui:id=search_edit_frame=Clash Royale
+回车,k:66
+检查皇室战争安装,w@{ui:text=$Clash Royale$}{timeout:300}
+click_game,c@ui:tt=$Clash Royale$
+click_yesIngame,c@xy:1000/1580
+clear_all,adbshell:kill -all
+进入设置, c@{uv:text=$Settings$}{scrollindex:2}
+进入账号, c@uv:text=$Accounts$	
+选择添加账号,c@ui:text=$Add account$
+选择添加Google账号,c@ui:text=$Google$
+等待账号输入框, w@{ui:id=identifierId}{timeout:60}
+输入账号,in@ui:id=identifierId=testaxon1@gmail.com
+点击next,c@ui:id=identifierNext||id=passwordNext||tt=NEXT
+等待密码输入框, w@{ui:text=Enter your password}{timeout:20}
+输入账号密码,in@ui:text=Enter your password=axon1010
+点击agree,c@xy:1180/1250
+点击Gallery,c@{uv:text=$Gallery$}{scrollindex:2}
+进入Drive, c@{uv:text=$Drive$}{scrollindex:2}
+点击图片1,c@uv:text=$Test1.jpg$
+点击图片2,c@uv:text=$Test2.jpg$
+点击Option,c@ui:cd=$More options$
+点击下载,c@{uv:text=$Download$}{scrollindex:2}
+返回,k:<back>
+点击other,c@ui:text=$Others$
+点击图库的下载,c@xy:375/686
+点击图库的下载中第一张图,c@xy:530/500
+点击图库的下载中第二张图,c@xy:900/500
+点击set_as, c@ui:text=$Set as$
+点击Wallpaper, c@ui:text=$Wallpaper$
+点击Lock screen wallpaper, c@ui:text=$Lock screen wallpaper$
+点击OK, c@ui:text=$OK$
+向上滑动,swipe@ui:cd=Show item properties=0/-60/3
+enter_Email, c@ui:text=$Email$
+shiyan,in@uv:id=password=66666666
+shiyan2,adbshell:input text 4045365004
+enter_GoogleInEmail, c@ui:cd=$Gmail$
+enter_idInEmail,in@ui:id=Email=testaxon1@gmail.com
+click_next,c@ui:id=next
+enter_passwordInEmail, in@ui:id=Passwd=axon1010
+click_signinInEmail,c@ui:id=signIn
+wait_allowInEmail,w@ui:id=submit_approve_access
+click_allowInEmail,c@ui:id=submit_approve_access
+wait_inboxInEmail,w@{ui:text=$Inbox$}{timeout:60}
+desktop,k:<back>&&<back>&&<back>&&<home>
+show_App,c@ui:tt=apps||cd=apps
+click_clock,c@ui:id=widget_time
+click_addInclock,c@ui:id=floating_button
+click_saveInclock,c@ui:id=action_done
+click_clearall,c@ui:tt=Clear all
+click_setting,c@{uv:text=$Settings$}{scrollindex:3}
+click_Display,c@uv:tt=$Display$
+click_Sound,c@uv:tt=$Sound$
+click_Sleep,c@uv:tt=$Sleep$
+click_NeverInDisplay,c@uv:tt=$Never$
+cancel,k:<back>
+click_RingtonesInSound,c@uv:tt=$Ringtones$
+click_AT&TInSound,c@ui:tt=$AT&T$
+click_BluesInSound,c@ui:tt=$Blues$
+click_BirdInSound,c@ui:tt=$Bird$
+click_done,c@ui:id=action_done
+click_NotificationInSound,c@ui:tt=$Notification tone$/index=0
+click_Phone,c@ui:tt=$Phone$
+click_contacts,c@ui:tt=$Contacts$
+click_addInContacts,c@ui:cd=$Add new contact$
+click_editInContacts,c@ui:id=action_edit
+enter_nameInContacts,in@ui:tt=Name=233fota
+click_numInContacts,c@ui:tt=Phone/class=android.widget.EditText
+enter_numInContacts,adbshell:input text 4045365004
+click_doneInContacts,c@ui:id=menu_done
+click_callInContacts,c@ui:id=secondary_action_button_first
+click_endInPhone,c@ui:id=endButton
+Lclick_2num,longclick@ui:id=two
+click_OKInPhone,c@ui:id=button1
+click_phone2InPhone,c@ui:id=photo2
+enter_numberInPhone,in@ui:class=android.widget.EditText=4045365004
+click_turnonInPhone,c@ui:id=button1
+Lclick_home,longclick@ui:id=workspace
+swipeToright,swipe@ui:class=android.view.ViewGroup=right
+click_addscreen,c@ui:id=add_screen
+drag_calender,drag@ui:tt=$Calendar$=0/-60/3
+click_browser,c@ui:tt=$Browser$
+enter_webaddress,in@ui:id=url_bar=www.baidu.com
+goahead,k:66
+click_bookmark,c@ui:id=bookmark_button
+click_addbookmark,c@ui:id=slidingmenu_addbookmark
+click_okInaddbookmark,c@ui:id=save
+click_camera,c@ui:cd=Camera
+click_hotspot,c@ui:tt=$Wi-Fi hotspot$
+click_editInhotspot,c@ui=id=hotspot_password_button
+enter_ssid,in@ui:id=ssid=fota
+enter_pswdInhotspot,in@uv:id=password=66666666
+click_okInhotspot,c@ui:tt=$Save$
+continue,c@ui:tt=skip||tt=Allow||tt=ok
+shiyan3, c@ui:tt=$Phone$
+shiyan4, c@ui:tt=$Contact$
+shiyan5, log yes
+
+drag@{ui:text=Calendar}={0/-400}
